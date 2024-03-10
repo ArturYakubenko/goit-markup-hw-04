@@ -1,0 +1,376 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color:#fff;
+
+    h1, h2, h3, p {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #2e2f42;
+    display: block;
+    
+}
+
+.container {
+        max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+}
+
+ul {
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+
+img {
+        display: block;
+}
+
+
+/* HEADER */
+
+.header-content {
+        border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+        display: flex;
+        align-items: center;
+
+        
+}
+
+.header-nav {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+}
+
+.header-list {
+        display: flex;
+        gap: 40px;
+       
+}
+
+        
+
+.header-address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-style: normal
+}
+
+.header-address, .header-address:hover {
+        color: #404bbf;
+}
+
+.header-address-list {
+        display: flex;
+        gap: 40px;
+}
+
+.emeil {
+        padding: 24px 0;
+}
+
+.header-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.blue-word {
+    color: #2e2f42;
+}
+
+.home {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.home:focus, .home:hover {
+        color: #404bbf;
+}
+
+.header-items {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.header-items:focus .header-items:hover {
+        color: #404bbf;
+}
+
+/* MAIN */
+
+.hero-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+        max-width: 496px;
+        margin-bottom: 48px;
+}
+
+.hero {
+        background: #2e2f42;
+        padding: 188px 0;
+}
+
+.description {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.prof {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+.blocks-name {
+        weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+
+.gray-back {
+        background: #f4f4fd;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+
+.name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+footer {
+    background: #2e2f42
+}
+
+.title-f {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.footer-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+
+.click {
+        background-color: #4D5AE5;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 4px;
+        border: none;
+        min-width: 169px;
+        height: 56px;  
+ 
+}
+
+.click:hover, .click:focus {
+        background-color: #404BBF;
+}
+
+/* Section advanteges */
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.advantages {
+        color: #2e2f42;
+        visibility: hidden;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+}
+
+.main-list {
+        display:flex;
+        gap: 24px;
+        padding: 0;
+}
+
+.fiture {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.text {
+        max-width: 264px;
+}
+
+/* GRAYBACK */
+
+.blocks-name {
+        margin-bottom: 72px;
+}
+
+.block-list {
+        display: flex;
+        gap: 24px;
+}
+
+.gray-back {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.teamer {
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+
+.name {
+        margin-bottom: 8px;
+}
+
+
+/* portfolio */
+
+.selection-portfolio {
+        padding-top: 120px;
+        padding-bottom: 120px;
+}
+
+.portfolio-list {
+        display:flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 48px;
+}
+
+.portfolio-list-item {
+      
+        
+    width: calc((100% - 48px) / 3);
+}
+
+.list-text {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        padding-right: 16px;
+        padding-left: 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+}
+
+.text {
+        margin: 0;
+        
+}
+
+.description {
+        margin-bottom: 8px;
+}
+
+/* footer */
+
+.white-word {
+        color: #f4f4fd
+}
+
+.link {
+        background-color: #FFFFFF;
+}
+
+.link:first-child {
+        border-radius: 0px 0px 4px 4px;
+}
+
+.emeil, .phone {
+        color: #434455;
+}
+
+.emeil:hover, .emeil:focus {
+        color: #404bbf;
+}
+
+.down {
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
+
+.footer-text {
+        max-width: 264px;
+        margin: 0;
+}
+
+.title-f {
+        margin-bottom: 16px;
+        display: inline-block;
+}
