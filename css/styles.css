@@ -130,15 +130,8 @@ img {
         color: #2e2f42;
 }
 
-.header-list>li:first-child>a {
+.first-item {
         position: relative;
-        color: #404bbf;
-         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.current {
-        position: relative;
-        color: #404bbf;
 }
 
 .current::after {
