@@ -136,8 +136,12 @@ img {
         color: #404bbf;
 }
 
+.current {
+        color: #404bbf;
+}
+
 .current::after {
-        content:"_";
+        content:" ";
         position: absolute;
         left: 0;
         bottom: -1px;
