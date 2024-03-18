@@ -541,9 +541,14 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .public-icon:hover, 
 .public-icon:focus {
-        background-color: #31d0aa;
+        background-color: #404bbf;
 }
 
 .footer-svg {
         fill: #f4f4fd;
+}
+
+.footer-public-icon:hover,
+.footer-public-icon:focus {
+       background-color: #31d0aa;
 }
